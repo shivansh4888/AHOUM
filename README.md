@@ -11,7 +11,7 @@ cp .env.example .env
 ```
 
 Frontend: http://localhost:3000 
-or  Maybe at http://localhost:3000/evaluate depending on port availability 
+or  Maybe at http://localhost:3001/evaluate depending on port availability 
 
 Backend: http://localhost:8000  
 OpenAPI: http://localhost:8000/docs
