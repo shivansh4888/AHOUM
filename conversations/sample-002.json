@@ -1,0 +1,24 @@
+{
+  "id": "sample-002",
+  "title": "Conflict Resolution scenario 2",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "conflict_resolution"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Conflict Resolution",
+    "synthetic"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sample-020",
+  "title": "Contradictory Signals scenario 20",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "I want transparency, but do not tell the customer about the outage yet."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "contradictory_signals"
+  ],
+  "expected_scores": {
+    "representative": -1
+  },
+  "tags": [
+    "Contradictory Signals",
+    "synthetic"
+  ]
+}

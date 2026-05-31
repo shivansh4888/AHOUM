@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment: { POSTGRES_USER: conveval, POSTGRES_PASSWORD: conveval, POSTGRES_DB: conveval }
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U conveval"], interval: 5s, timeout: 5s, retries: 20 }
+  redis: { image: redis:7-alpine }
+  backend:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    environment:
+      DATABASE_URL: postgresql+psycopg://conveval:conveval@postgres:5432/conveval
+      REDIS_URL: redis://redis:6379/0
+      DATA_DIR: /app/data
+      GROQ_API_KEY: ${GROQ_API_KEY:?GROQ_API_KEY is required}
+      GROQ_BASE_URL: ${GROQ_BASE_URL:-https://api.groq.com/openai/v1}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.1-8b-instant}
+      SECONDARY_MODEL: ${SECONDARY_MODEL:-llama-3.1-8b-instant}
+      ROUTER_BACKEND: ${ROUTER_BACKEND:-lexical}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,http://127.0.0.1:3001,http://localhost:8080,http://127.0.0.1:8080}
+      MAX_ROUTER_FACETS: ${MAX_ROUTER_FACETS:-300}
+      SCORING_BATCH_SIZE: ${SCORING_BATCH_SIZE:-12}
+      CONFIDENCE_ENSEMBLE_RUNS: ${CONFIDENCE_ENSEMBLE_RUNS:-2}
+      LLM_SCORING_FACET_LIMIT: ${LLM_SCORING_FACET_LIMIT:-60}
+    depends_on: { postgres: { condition: service_healthy }, redis: { condition: service_started } }
+    ports: ["8000:8000"]
+  worker:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    command: celery -A app.workers.celery_app.celery_app worker --loglevel=INFO --concurrency=1
+    environment:
+      DATABASE_URL: postgresql+psycopg://conveval:conveval@postgres:5432/conveval
+      REDIS_URL: redis://redis:6379/0
+      DATA_DIR: /app/data
+      GROQ_API_KEY: ${GROQ_API_KEY:?GROQ_API_KEY is required}
+      GROQ_BASE_URL: ${GROQ_BASE_URL:-https://api.groq.com/openai/v1}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.1-8b-instant}
+      SECONDARY_MODEL: ${SECONDARY_MODEL:-llama-3.1-8b-instant}
+      ROUTER_BACKEND: ${ROUTER_BACKEND:-lexical}
+      MAX_ROUTER_FACETS: ${MAX_ROUTER_FACETS:-300}
+      SCORING_BATCH_SIZE: ${SCORING_BATCH_SIZE:-12}
+      CONFIDENCE_ENSEMBLE_RUNS: ${CONFIDENCE_ENSEMBLE_RUNS:-2}
+      LLM_SCORING_FACET_LIMIT: ${LLM_SCORING_FACET_LIMIT:-60}
+    depends_on: [backend]
+  frontend:
+    build: { context: ., dockerfile: frontend/Dockerfile }
+    environment: { NEXT_PUBLIC_API_URL: http://localhost:8000 }
+    ports: ["3001:3000"]
+    depends_on: [backend]
+  nginx:
+    image: nginx:1.27-alpine
+    volumes: [./nginx/nginx.conf:/etc/nginx/nginx.conf:ro]
+    ports: ["8080:80"]
+    depends_on: [frontend, backend]
+volumes: { postgres_data: {} }

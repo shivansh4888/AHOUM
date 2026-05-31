@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "sample-001",
+    "title": "Risk Taking scenario 1",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "risk_taking"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Risk Taking",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-002",
+    "title": "Conflict Resolution scenario 2",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "conflict_resolution"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Conflict Resolution",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-003",
+    "title": "Emotional Disclosure scenario 3",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I felt anxious after the meeting and need to say that directly."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "emotional_disclosure"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Emotional Disclosure",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-004",
+    "title": "Technical Reasoning scenario 4",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "The metric moved because the sample changed; we need a control group."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "technical_reasoning"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Technical Reasoning",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-005",
+    "title": "Ethics scenario 5",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Hiding cancellation would improve conversion, but it is manipulative and unfair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "ethics"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Ethics",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-006",
+    "title": "Spirituality scenario 6",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This matters because service and humility give the work meaning."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "spirituality"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Spirituality",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-007",
+    "title": "Leadership scenario 7",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I will own the decision, delegate analysis, and include quieter teammates."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "leadership"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Leadership",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-008",
+    "title": "Distress scenario 8",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I am overwhelmed and sleeping badly, but I can ask for help today."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "distress"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Distress",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-009",
+    "title": "Enthusiasm scenario 9",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This prototype is exciting and I have energy to polish it."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "enthusiasm"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Enthusiasm",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-010",
+    "title": "Contradictory Signals scenario 10",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want transparency, but do not tell the customer about the outage yet."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "contradictory_signals"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Contradictory Signals",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-011",
+    "title": "Risk Taking scenario 11",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "risk_taking"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Risk Taking",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-012",
+    "title": "Conflict Resolution scenario 12",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "conflict_resolution"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Conflict Resolution",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-013",
+    "title": "Emotional Disclosure scenario 13",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I felt anxious after the meeting and need to say that directly."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "emotional_disclosure"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Emotional Disclosure",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-014",
+    "title": "Technical Reasoning scenario 14",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "The metric moved because the sample changed; we need a control group."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "technical_reasoning"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Technical Reasoning",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-015",
+    "title": "Ethics scenario 15",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Hiding cancellation would improve conversion, but it is manipulative and unfair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "ethics"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Ethics",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-016",
+    "title": "Spirituality scenario 16",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This matters because service and humility give the work meaning."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "spirituality"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Spirituality",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-017",
+    "title": "Leadership scenario 17",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I will own the decision, delegate analysis, and include quieter teammates."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "leadership"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Leadership",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-018",
+    "title": "Distress scenario 18",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I am overwhelmed and sleeping badly, but I can ask for help today."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "distress"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Distress",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-019",
+    "title": "Enthusiasm scenario 19",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This prototype is exciting and I have energy to polish it."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "enthusiasm"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Enthusiasm",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-020",
+    "title": "Contradictory Signals scenario 20",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want transparency, but do not tell the customer about the outage yet."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "contradictory_signals"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Contradictory Signals",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-021",
+    "title": "Risk Taking scenario 21",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "risk_taking"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Risk Taking",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-022",
+    "title": "Conflict Resolution scenario 22",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "conflict_resolution"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Conflict Resolution",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-023",
+    "title": "Emotional Disclosure scenario 23",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I felt anxious after the meeting and need to say that directly."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "emotional_disclosure"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Emotional Disclosure",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-024",
+    "title": "Technical Reasoning scenario 24",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "The metric moved because the sample changed; we need a control group."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "technical_reasoning"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Technical Reasoning",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-025",
+    "title": "Ethics scenario 25",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Hiding cancellation would improve conversion, but it is manipulative and unfair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "ethics"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Ethics",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-026",
+    "title": "Spirituality scenario 26",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This matters because service and humility give the work meaning."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "spirituality"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Spirituality",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-027",
+    "title": "Leadership scenario 27",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I will own the decision, delegate analysis, and include quieter teammates."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "leadership"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Leadership",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-028",
+    "title": "Distress scenario 28",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I am overwhelmed and sleeping badly, but I can ask for help today."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "distress"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Distress",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-029",
+    "title": "Enthusiasm scenario 29",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This prototype is exciting and I have energy to polish it."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "enthusiasm"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Enthusiasm",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-030",
+    "title": "Contradictory Signals scenario 30",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want transparency, but do not tell the customer about the outage yet."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "contradictory_signals"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Contradictory Signals",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-031",
+    "title": "Risk Taking scenario 31",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "risk_taking"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Risk Taking",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-032",
+    "title": "Conflict Resolution scenario 32",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "conflict_resolution"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Conflict Resolution",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-033",
+    "title": "Emotional Disclosure scenario 33",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I felt anxious after the meeting and need to say that directly."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "emotional_disclosure"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Emotional Disclosure",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-034",
+    "title": "Technical Reasoning scenario 34",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "The metric moved because the sample changed; we need a control group."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "technical_reasoning"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Technical Reasoning",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-035",
+    "title": "Ethics scenario 35",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Hiding cancellation would improve conversion, but it is manipulative and unfair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "ethics"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Ethics",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-036",
+    "title": "Spirituality scenario 36",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This matters because service and humility give the work meaning."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "spirituality"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Spirituality",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-037",
+    "title": "Leadership scenario 37",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I will own the decision, delegate analysis, and include quieter teammates."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "leadership"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Leadership",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-038",
+    "title": "Distress scenario 38",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I am overwhelmed and sleeping badly, but I can ask for help today."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "distress"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Distress",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-039",
+    "title": "Enthusiasm scenario 39",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This prototype is exciting and I have energy to polish it."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "enthusiasm"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Enthusiasm",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-040",
+    "title": "Contradictory Signals scenario 40",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want transparency, but do not tell the customer about the outage yet."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "contradictory_signals"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Contradictory Signals",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-041",
+    "title": "Risk Taking scenario 41",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "risk_taking"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Risk Taking",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-042",
+    "title": "Conflict Resolution scenario 42",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I hear the frustration; let us separate facts from assumptions and agree on repair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "conflict_resolution"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Conflict Resolution",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-043",
+    "title": "Emotional Disclosure scenario 43",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I felt anxious after the meeting and need to say that directly."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "emotional_disclosure"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Emotional Disclosure",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-044",
+    "title": "Technical Reasoning scenario 44",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "The metric moved because the sample changed; we need a control group."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "technical_reasoning"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Technical Reasoning",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-045",
+    "title": "Ethics scenario 45",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "Hiding cancellation would improve conversion, but it is manipulative and unfair."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "ethics"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Ethics",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-046",
+    "title": "Spirituality scenario 46",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This matters because service and humility give the work meaning."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "spirituality"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Spirituality",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-047",
+    "title": "Leadership scenario 47",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I will own the decision, delegate analysis, and include quieter teammates."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "leadership"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Leadership",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-048",
+    "title": "Distress scenario 48",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I am overwhelmed and sleeping badly, but I can ask for help today."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "distress"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Distress",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-049",
+    "title": "Enthusiasm scenario 49",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "This prototype is exciting and I have energy to polish it."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "enthusiasm"
+    ],
+    "expected_scores": {
+      "representative": 2
+    },
+    "tags": [
+      "Enthusiasm",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "sample-050",
+    "title": "Contradictory Signals scenario 50",
+    "turns": [
+      {
+        "speaker": "user",
+        "text": "I want transparency, but do not tell the customer about the outage yet."
+      },
+      {
+        "speaker": "assistant",
+        "text": "What outcome should we optimize for next?"
+      }
+    ],
+    "ground_truth_facets": [
+      "contradictory_signals"
+    ],
+    "expected_scores": {
+      "representative": -1
+    },
+    "tags": [
+      "Contradictory Signals",
+      "synthetic"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "sample-047",
+  "title": "Leadership scenario 47",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "I will own the decision, delegate analysis, and include quieter teammates."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "leadership"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Leadership",
+    "synthetic"
+  ]
+}

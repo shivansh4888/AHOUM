@@ -1,0 +1,1 @@
+export function ConfidenceGauge({value}:{value:number}){return <div><div className="h-2 rounded bg-line"><div className="h-2 rounded bg-signal" style={{width:`${Math.round(value*100)}%`}}/></div><div className="mt-1 font-mono text-xs">{Math.round(value*100)}%</div></div>}

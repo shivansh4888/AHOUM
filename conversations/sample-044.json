@@ -1,0 +1,24 @@
+{
+  "id": "sample-044",
+  "title": "Technical Reasoning scenario 44",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "The metric moved because the sample changed; we need a control group."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "technical_reasoning"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Technical Reasoning",
+    "synthetic"
+  ]
+}

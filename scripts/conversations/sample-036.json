@@ -1,0 +1,24 @@
+{
+  "id": "sample-036",
+  "title": "Spirituality scenario 36",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "This matters because service and humility give the work meaning."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "spirituality"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Spirituality",
+    "synthetic"
+  ]
+}

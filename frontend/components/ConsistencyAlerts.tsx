@@ -1,0 +1,1 @@
+export function ConsistencyAlerts({alerts}:{alerts:any[]}){return <div className="space-y-2">{alerts.length===0&&<div className="text-sm text-muted">No consistency alerts detected.</div>}{alerts.map((a,i)=><div className="rounded border border-amber/30 bg-amber/5 p-3 text-sm text-amber" key={i}>{a.type}: {a.message}</div>)}</div>}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{min-height:100vh;background:#FAFAFA;color:#171717;font-family:Inter,sans-serif}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;background-image:radial-gradient(#D4D4D4 .65px,transparent .65px);background-size:18px 18px}
+.panel{border:1px solid #E5E5E5;background:#FFFFFF;border-radius:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border:1px solid #D4D4D4;border-radius:8px;padding:.625rem .875rem;background:#FFFFFF;color:#171717;font-size:14px;font-weight:500;line-height:1;transition:background .15s ease,border-color .15s ease,color .15s ease}
+.btn:hover{background:#F5F5F5;border-color:#A3A3A3}
+.btn-primary{border-color:#2563EB;background:#2563EB;color:#FFFFFF;font-weight:600}
+.btn-primary:hover{background:#1D4ED8;border-color:#1D4ED8}
+input,textarea,select{background:#FFFFFF;border:1px solid #D4D4D4;border-radius:8px;color:#171717;padding:.7rem .75rem;width:100%;outline:none;font-size:14px;transition:border-color .15s ease,box-shadow .15s ease}
+input:focus,textarea:focus,select:focus{border-color:#2563EB;box-shadow:0 0 0 3px rgba(37,99,235,.12)}
+button:disabled{cursor:not-allowed;opacity:.65}

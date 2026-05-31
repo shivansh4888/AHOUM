@@ -1,0 +1,24 @@
+{
+  "id": "sample-003",
+  "title": "Emotional Disclosure scenario 3",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "I felt anxious after the meeting and need to say that directly."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "emotional_disclosure"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Emotional Disclosure",
+    "synthetic"
+  ]
+}

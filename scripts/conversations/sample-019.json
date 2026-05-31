@@ -1,0 +1,24 @@
+{
+  "id": "sample-019",
+  "title": "Enthusiasm scenario 19",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "This prototype is exciting and I have energy to polish it."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "enthusiasm"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Enthusiasm",
+    "synthetic"
+  ]
+}

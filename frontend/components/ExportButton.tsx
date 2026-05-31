@@ -1,0 +1,1 @@
+"use client"; import { Download } from 'lucide-react'; export function ExportButton({data,name}:{data:any;name:string}){return <button className="btn" onClick={()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download=name;a.click()}}><Download size={16}/>Export</button>}

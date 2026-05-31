@@ -1,0 +1,24 @@
+{
+  "id": "sample-041",
+  "title": "Risk Taking scenario 41",
+  "turns": [
+    {
+      "speaker": "user",
+      "text": "I know the rollout is uncertain, but I want a guarded experiment and clear rollback criteria."
+    },
+    {
+      "speaker": "assistant",
+      "text": "What outcome should we optimize for next?"
+    }
+  ],
+  "ground_truth_facets": [
+    "risk_taking"
+  ],
+  "expected_scores": {
+    "representative": 2
+  },
+  "tags": [
+    "Risk Taking",
+    "synthetic"
+  ]
+}

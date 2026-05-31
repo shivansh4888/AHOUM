@@ -1,0 +1,1 @@
+import { Shell } from '@/components/Shell'; import { FacetExplorer } from '@/components/FacetExplorer'; export default function Facets(){return <Shell><h1 className="text-[32px] font-semibold">Facet Registry</h1><p className="mt-2 text-lg text-muted">Browse the evaluation dimensions used across conversation reports.</p><div className="mt-8"><FacetExplorer/></div></Shell>}
