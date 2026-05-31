@@ -1,7 +1,7 @@
 # ConvEval-300
 
 A Dockerized, GitHub-ready conversation evaluation system for scoring every conversation turn across an enriched facet registry.
-
+Currently using groq apis but can be later switched to complete local system with a small design change.
 ## Quickstart
 
 ```bash
@@ -12,6 +12,7 @@ cp .env.example .env
 
 Frontend: http://localhost:3000 
 or  Maybe at http://localhost:3000/evaluate depending on port availability 
+
 Backend: http://localhost:8000  
 OpenAPI: http://localhost:8000/docs
 
